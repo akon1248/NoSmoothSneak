@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "no_smooth_sneak",
+    "version": "${version}",
+    "name": "No Smooth Sneak",
+    "description": "",
+    "authors": [
+        "akon"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.akon.nosmoothsneak.NoSmoothSneak"
+        ]
+    },
+    "mixins": [
+        "no_smooth_sneak.mixins.json"
+    ],
+    "accessWidener": "no_smooth_sneak.accesswidener",
+    "depends": {
+        "fabricloader": ">=0.14.9",
+        "fabric": "*",
+        "minecraft": "1.19.2"
+    }
+}
